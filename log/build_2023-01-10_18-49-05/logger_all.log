@@ -1,0 +1,140 @@
+[0.198s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--packages-select', 'autoronto_interview']
+[0.199s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=5, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=['autoronto_interview'], packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0xffff948f22f0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffff950eff10>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffff950eff10>>, mixin_verb=('build',))
+[0.221s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.223s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/Gazebo.meta'
+[0.225s] INFO:colcon.colcon_metadata.package_discovery.colcon_meta:Using configuration from '/root/.colcon/metadata/default/fastrtps.meta'
+[0.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.234s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.235s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.236s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.237s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/usr/sdelasa'
+[0.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.242s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.245s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.249s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.250s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.251s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.252s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.266s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.267s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.269s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.270s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.271s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.275s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.277s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.278s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.279s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.280s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.281s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.288s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.289s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.296s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.297s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.298s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.301s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.303s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.305s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.306s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.307s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.314s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.316s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.319s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.320s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.325s] Level 1:colcon.colcon_core.package_identification:_identify(src/autoronto_interview) by extensions ['ignore', 'ignore_ament_install']
+[0.326s] Level 1:colcon.colcon_core.package_identification:_identify(src/autoronto_interview) by extension 'ignore'
+[0.327s] Level 1:colcon.colcon_core.package_identification:_identify(src/autoronto_interview) by extension 'ignore_ament_install'
+[0.330s] Level 1:colcon.colcon_core.package_identification:_identify(src/autoronto_interview) by extensions ['colcon_pkg']
+[0.331s] Level 1:colcon.colcon_core.package_identification:_identify(src/autoronto_interview) by extension 'colcon_pkg'
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autoronto_interview) by extensions ['colcon_meta']
+[0.333s] Level 1:colcon.colcon_core.package_identification:_identify(src/autoronto_interview) by extension 'colcon_meta'
+[0.334s] Level 1:colcon.colcon_core.package_identification:_identify(src/autoronto_interview) by extensions ['ros']
+[0.335s] Level 1:colcon.colcon_core.package_identification:_identify(src/autoronto_interview) by extension 'ros'
+[0.341s] DEBUG:colcon.colcon_core.package_identification:Package 'src/autoronto_interview' with type 'ros.ament_cmake' and name 'autoronto_interview'
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.342s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.343s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.349s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.350s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.373s] Level 5:colcon.colcon_core.verb:set package 'autoronto_interview' build argument 'cmake_args' from command line to 'None'
+[0.374s] Level 5:colcon.colcon_core.verb:set package 'autoronto_interview' build argument 'cmake_target' from command line to 'None'
+[0.376s] Level 5:colcon.colcon_core.verb:set package 'autoronto_interview' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.377s] Level 5:colcon.colcon_core.verb:set package 'autoronto_interview' build argument 'cmake_clean_cache' from command line to 'False'
+[0.378s] Level 5:colcon.colcon_core.verb:set package 'autoronto_interview' build argument 'cmake_clean_first' from command line to 'False'
+[0.379s] Level 5:colcon.colcon_core.verb:set package 'autoronto_interview' build argument 'cmake_force_configure' from command line to 'False'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'autoronto_interview' build argument 'ament_cmake_args' from command line to 'None'
+[0.380s] Level 5:colcon.colcon_core.verb:set package 'autoronto_interview' build argument 'catkin_cmake_args' from command line to 'None'
+[0.381s] Level 5:colcon.colcon_core.verb:set package 'autoronto_interview' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.382s] DEBUG:colcon.colcon_core.verb:Building package 'autoronto_interview' with the following arguments: {'ament_cmake_args': None, 'build_base': '/usr/sdelasa/build/autoronto_interview', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/usr/sdelasa/install/autoronto_interview', 'merge_install': False, 'path': '/usr/sdelasa/src/autoronto_interview', 'symlink_install': False, 'test_result_base': None}
+[0.385s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.388s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.389s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/usr/sdelasa/src/autoronto_interview' with build type 'ament_cmake'
+[0.391s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/usr/sdelasa/src/autoronto_interview'
+[0.396s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.397s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.398s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.532s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/usr/sdelasa/build/autoronto_interview': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /usr/sdelasa/build/autoronto_interview -- -j5 -l5
+[14.283s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/usr/sdelasa/build/autoronto_interview' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /usr/sdelasa/build/autoronto_interview -- -j5 -l5
+[14.797s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/usr/sdelasa/build/autoronto_interview': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /usr/sdelasa/build/autoronto_interview
+[16.019s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoronto_interview)
+[16.022s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/usr/sdelasa/build/autoronto_interview' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /usr/sdelasa/build/autoronto_interview
+[16.024s] Level 1:colcon.colcon_core.environment:checking '/usr/sdelasa/install/autoronto_interview' for CMake module files
+[16.060s] Level 1:colcon.colcon_core.environment:checking '/usr/sdelasa/install/autoronto_interview' for CMake config files
+[16.063s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoronto_interview', 'cmake_prefix_path')
+[16.065s] INFO:colcon.colcon_core.shell:Creating environment hook '/usr/sdelasa/install/autoronto_interview/share/autoronto_interview/hook/cmake_prefix_path.ps1'
+[16.073s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/usr/sdelasa/install/autoronto_interview/share/autoronto_interview/hook/cmake_prefix_path.dsv'
+[16.078s] INFO:colcon.colcon_core.shell:Creating environment hook '/usr/sdelasa/install/autoronto_interview/share/autoronto_interview/hook/cmake_prefix_path.sh'
+[16.090s] Level 1:colcon.colcon_core.environment:checking '/usr/sdelasa/install/autoronto_interview/lib'
+[16.092s] Level 1:colcon.colcon_core.environment:checking '/usr/sdelasa/install/autoronto_interview/bin'
+[16.094s] Level 1:colcon.colcon_core.environment:checking '/usr/sdelasa/install/autoronto_interview/lib/pkgconfig/autoronto_interview.pc'
+[16.097s] Level 1:colcon.colcon_core.environment:checking '/usr/sdelasa/install/autoronto_interview/lib/python3.10/site-packages'
+[16.099s] Level 1:colcon.colcon_core.environment:checking '/usr/sdelasa/install/autoronto_interview/bin'
+[16.101s] INFO:colcon.colcon_core.shell:Creating package script '/usr/sdelasa/install/autoronto_interview/share/autoronto_interview/package.ps1'
+[16.110s] INFO:colcon.colcon_core.shell:Creating package descriptor '/usr/sdelasa/install/autoronto_interview/share/autoronto_interview/package.dsv'
+[16.116s] INFO:colcon.colcon_core.shell:Creating package script '/usr/sdelasa/install/autoronto_interview/share/autoronto_interview/package.sh'
+[16.122s] INFO:colcon.colcon_core.shell:Creating package script '/usr/sdelasa/install/autoronto_interview/share/autoronto_interview/package.bash'
+[16.127s] INFO:colcon.colcon_core.shell:Creating package script '/usr/sdelasa/install/autoronto_interview/share/autoronto_interview/package.zsh'
+[16.134s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/usr/sdelasa/install/autoronto_interview/share/colcon-core/packages/autoronto_interview)
+[16.576s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(autoronto_interview)
+[16.578s] Level 1:colcon.colcon_core.environment:checking '/usr/sdelasa/install/autoronto_interview' for CMake module files
+[16.608s] Level 1:colcon.colcon_core.environment:checking '/usr/sdelasa/install/autoronto_interview' for CMake config files
+[16.611s] Level 1:colcon.colcon_core.shell:create_environment_hook('autoronto_interview', 'cmake_prefix_path')
+[16.612s] INFO:colcon.colcon_core.shell:Creating environment hook '/usr/sdelasa/install/autoronto_interview/share/autoronto_interview/hook/cmake_prefix_path.ps1'
+[16.620s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/usr/sdelasa/install/autoronto_interview/share/autoronto_interview/hook/cmake_prefix_path.dsv'
+[16.626s] INFO:colcon.colcon_core.shell:Creating environment hook '/usr/sdelasa/install/autoronto_interview/share/autoronto_interview/hook/cmake_prefix_path.sh'
+[16.633s] Level 1:colcon.colcon_core.environment:checking '/usr/sdelasa/install/autoronto_interview/lib'
+[16.634s] Level 1:colcon.colcon_core.environment:checking '/usr/sdelasa/install/autoronto_interview/bin'
+[16.635s] Level 1:colcon.colcon_core.environment:checking '/usr/sdelasa/install/autoronto_interview/lib/pkgconfig/autoronto_interview.pc'
+[16.638s] Level 1:colcon.colcon_core.environment:checking '/usr/sdelasa/install/autoronto_interview/lib/python3.10/site-packages'
+[16.639s] Level 1:colcon.colcon_core.environment:checking '/usr/sdelasa/install/autoronto_interview/bin'
+[16.647s] INFO:colcon.colcon_core.shell:Creating package script '/usr/sdelasa/install/autoronto_interview/share/autoronto_interview/package.ps1'
+[16.654s] INFO:colcon.colcon_core.shell:Creating package descriptor '/usr/sdelasa/install/autoronto_interview/share/autoronto_interview/package.dsv'
+[16.661s] INFO:colcon.colcon_core.shell:Creating package script '/usr/sdelasa/install/autoronto_interview/share/autoronto_interview/package.sh'
+[16.667s] INFO:colcon.colcon_core.shell:Creating package script '/usr/sdelasa/install/autoronto_interview/share/autoronto_interview/package.bash'
+[16.673s] INFO:colcon.colcon_core.shell:Creating package script '/usr/sdelasa/install/autoronto_interview/share/autoronto_interview/package.zsh'
+[16.679s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/usr/sdelasa/install/autoronto_interview/share/colcon-core/packages/autoronto_interview)
+[16.685s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[16.687s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[16.688s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[16.695s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[16.719s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[16.720s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[16.721s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[16.722s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[16.723s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[16.724s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[16.725s] INFO:colcon.colcon_core.shell:Creating prefix script '/usr/sdelasa/install/local_setup.ps1'
+[16.732s] INFO:colcon.colcon_core.shell:Creating prefix util module '/usr/sdelasa/install/_local_setup_util_ps1.py'
+[16.738s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/usr/sdelasa/install/setup.ps1'
+[16.749s] INFO:colcon.colcon_core.shell:Creating prefix script '/usr/sdelasa/install/local_setup.sh'
+[16.760s] INFO:colcon.colcon_core.shell:Creating prefix util module '/usr/sdelasa/install/_local_setup_util_sh.py'
+[16.766s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/usr/sdelasa/install/setup.sh'
+[16.779s] INFO:colcon.colcon_core.shell:Creating prefix script '/usr/sdelasa/install/local_setup.bash'
+[16.784s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/usr/sdelasa/install/setup.bash'
+[16.796s] INFO:colcon.colcon_core.shell:Creating prefix script '/usr/sdelasa/install/local_setup.zsh'
+[16.801s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/usr/sdelasa/install/setup.zsh'

@@ -1,0 +1,2 @@
+Invoking command in '/usr/sdelasa/build/turtlesim': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /usr/sdelasa/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/usr/sdelasa/install/turtlesim
+Invoked command in '/usr/sdelasa/build/turtlesim' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /usr/sdelasa/ros_tutorials/turtlesim -DCMAKE_INSTALL_PREFIX=/usr/sdelasa/install/turtlesim

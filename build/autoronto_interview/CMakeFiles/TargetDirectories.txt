@@ -1,0 +1,11 @@
+/usr/sdelasa/build/autoronto_interview/CMakeFiles/uninstall.dir
+/usr/sdelasa/build/autoronto_interview/CMakeFiles/autoronto_interview_uninstall.dir
+/usr/sdelasa/build/autoronto_interview/CMakeFiles/test_publisher.dir
+/usr/sdelasa/build/autoronto_interview/CMakeFiles/solution.dir
+/usr/sdelasa/build/autoronto_interview/CMakeFiles/test.dir
+/usr/sdelasa/build/autoronto_interview/CMakeFiles/edit_cache.dir
+/usr/sdelasa/build/autoronto_interview/CMakeFiles/rebuild_cache.dir
+/usr/sdelasa/build/autoronto_interview/CMakeFiles/list_install_components.dir
+/usr/sdelasa/build/autoronto_interview/CMakeFiles/install.dir
+/usr/sdelasa/build/autoronto_interview/CMakeFiles/install/local.dir
+/usr/sdelasa/build/autoronto_interview/CMakeFiles/install/strip.dir

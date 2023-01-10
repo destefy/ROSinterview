@@ -1,0 +1,195 @@
+[0.000000] (-) TimerEvent: {}
+[0.000929] (autoronto_interview) JobQueued: {'identifier': 'autoronto_interview', 'dependencies': OrderedDict()}
+[0.002709] (autoronto_interview) JobStarted: {'identifier': 'autoronto_interview'}
+[0.095532] (autoronto_interview) JobProgress: {'identifier': 'autoronto_interview', 'progress': 'cmake'}
+[0.097694] (-) TimerEvent: {}
+[0.109905] (autoronto_interview) JobProgress: {'identifier': 'autoronto_interview', 'progress': 'build'}
+[0.113752] (autoronto_interview) Command: {'cmd': ['/usr/bin/cmake', '--build', '/usr/sdelasa/build/autoronto_interview', '--', '-j5', '-l5'], 'cwd': '/usr/sdelasa/build/autoronto_interview', 'env': OrderedDict([('HOSTNAME', '070e5eb9b48a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/sdelasa/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/usr/sdelasa/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/usr/sdelasa/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/usr/sdelasa/install/autoronto_interview:/usr/sdelasa/install/turtlesim:/opt/ros/humble'), ('PWD', '/usr/sdelasa/build/autoronto_interview'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/usr/sdelasa/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/usr/sdelasa/install/autoronto_interview:/usr/sdelasa/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[0.197957] (-) TimerEvent: {}
+[0.299166] (-) TimerEvent: {}
+[0.400629] (-) TimerEvent: {}
+[0.501734] (-) TimerEvent: {}
+[0.603344] (-) TimerEvent: {}
+[0.618669] (autoronto_interview) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target solution\x1b[0m\n'}
+[0.703611] (-) TimerEvent: {}
+[0.774225] (autoronto_interview) StdoutLine: {'line': b'[ 50%] Built target test_publisher\n'}
+[0.803706] (-) TimerEvent: {}
+[0.904955] (-) TimerEvent: {}
+[1.005999] (-) TimerEvent: {}
+[1.111332] (-) TimerEvent: {}
+[1.212691] (-) TimerEvent: {}
+[1.313719] (-) TimerEvent: {}
+[1.415050] (-) TimerEvent: {}
+[1.516160] (-) TimerEvent: {}
+[1.617830] (-) TimerEvent: {}
+[1.718979] (-) TimerEvent: {}
+[1.822225] (-) TimerEvent: {}
+[1.923627] (-) TimerEvent: {}
+[2.025023] (-) TimerEvent: {}
+[2.126164] (-) TimerEvent: {}
+[2.227102] (-) TimerEvent: {}
+[2.329420] (-) TimerEvent: {}
+[2.430620] (-) TimerEvent: {}
+[2.533493] (-) TimerEvent: {}
+[2.635126] (-) TimerEvent: {}
+[2.677193] (autoronto_interview) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o\x1b[0m\n'}
+[2.735740] (-) TimerEvent: {}
+[2.836647] (-) TimerEvent: {}
+[2.942429] (-) TimerEvent: {}
+[3.048802] (-) TimerEvent: {}
+[3.153391] (-) TimerEvent: {}
+[3.258403] (-) TimerEvent: {}
+[3.365088] (-) TimerEvent: {}
+[3.467497] (-) TimerEvent: {}
+[3.574431] (-) TimerEvent: {}
+[3.678483] (-) TimerEvent: {}
+[3.785158] (-) TimerEvent: {}
+[3.891550] (-) TimerEvent: {}
+[3.997181] (-) TimerEvent: {}
+[4.102138] (-) TimerEvent: {}
+[4.205456] (-) TimerEvent: {}
+[4.312668] (-) TimerEvent: {}
+[4.419380] (-) TimerEvent: {}
+[4.525952] (-) TimerEvent: {}
+[4.632914] (-) TimerEvent: {}
+[4.739846] (-) TimerEvent: {}
+[4.845440] (-) TimerEvent: {}
+[4.947775] (-) TimerEvent: {}
+[5.054575] (-) TimerEvent: {}
+[5.161216] (-) TimerEvent: {}
+[5.267837] (-) TimerEvent: {}
+[5.374348] (-) TimerEvent: {}
+[5.480826] (-) TimerEvent: {}
+[5.587353] (-) TimerEvent: {}
+[5.689734] (-) TimerEvent: {}
+[5.796176] (-) TimerEvent: {}
+[5.898525] (-) TimerEvent: {}
+[6.005364] (-) TimerEvent: {}
+[6.112135] (-) TimerEvent: {}
+[6.218796] (-) TimerEvent: {}
+[6.325561] (-) TimerEvent: {}
+[6.432052] (-) TimerEvent: {}
+[6.538809] (-) TimerEvent: {}
+[6.641430] (-) TimerEvent: {}
+[6.743687] (-) TimerEvent: {}
+[6.845052] (-) TimerEvent: {}
+[6.947426] (-) TimerEvent: {}
+[7.053988] (-) TimerEvent: {}
+[7.158655] (-) TimerEvent: {}
+[7.259952] (-) TimerEvent: {}
+[7.361801] (-) TimerEvent: {}
+[7.464072] (-) TimerEvent: {}
+[7.565076] (-) TimerEvent: {}
+[7.666145] (-) TimerEvent: {}
+[7.767177] (-) TimerEvent: {}
+[7.867970] (-) TimerEvent: {}
+[7.969155] (-) TimerEvent: {}
+[8.070875] (-) TimerEvent: {}
+[8.171857] (-) TimerEvent: {}
+[8.272900] (-) TimerEvent: {}
+[8.374247] (-) TimerEvent: {}
+[8.475453] (-) TimerEvent: {}
+[8.576933] (-) TimerEvent: {}
+[8.678812] (-) TimerEvent: {}
+[8.779944] (-) TimerEvent: {}
+[8.881108] (-) TimerEvent: {}
+[8.982748] (-) TimerEvent: {}
+[9.083799] (-) TimerEvent: {}
+[9.184801] (-) TimerEvent: {}
+[9.285878] (-) TimerEvent: {}
+[9.387073] (-) TimerEvent: {}
+[9.488752] (-) TimerEvent: {}
+[9.590022] (-) TimerEvent: {}
+[9.690981] (-) TimerEvent: {}
+[9.793226] (-) TimerEvent: {}
+[9.904250] (-) TimerEvent: {}
+[9.990137] (autoronto_interview) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable solution\x1b[0m\n'}
+[10.004576] (-) TimerEvent: {}
+[10.105690] (-) TimerEvent: {}
+[10.206919] (-) TimerEvent: {}
+[10.310084] (-) TimerEvent: {}
+[10.417345] (-) TimerEvent: {}
+[10.528395] (-) TimerEvent: {}
+[10.629483] (-) TimerEvent: {}
+[10.730726] (-) TimerEvent: {}
+[10.831808] (-) TimerEvent: {}
+[10.932960] (-) TimerEvent: {}
+[11.034575] (-) TimerEvent: {}
+[11.136081] (-) TimerEvent: {}
+[11.237887] (-) TimerEvent: {}
+[11.339392] (-) TimerEvent: {}
+[11.440550] (-) TimerEvent: {}
+[11.541846] (-) TimerEvent: {}
+[11.642816] (-) TimerEvent: {}
+[11.743880] (-) TimerEvent: {}
+[11.845586] (-) TimerEvent: {}
+[11.946691] (-) TimerEvent: {}
+[12.047898] (-) TimerEvent: {}
+[12.154571] (-) TimerEvent: {}
+[12.255862] (-) TimerEvent: {}
+[12.357701] (-) TimerEvent: {}
+[12.458911] (-) TimerEvent: {}
+[12.561611] (-) TimerEvent: {}
+[12.663792] (-) TimerEvent: {}
+[12.773064] (-) TimerEvent: {}
+[12.874411] (-) TimerEvent: {}
+[12.976505] (-) TimerEvent: {}
+[13.077852] (-) TimerEvent: {}
+[13.179147] (-) TimerEvent: {}
+[13.280906] (-) TimerEvent: {}
+[13.382678] (-) TimerEvent: {}
+[13.483907] (-) TimerEvent: {}
+[13.585170] (-) TimerEvent: {}
+[13.688728] (-) TimerEvent: {}
+[13.790214] (-) TimerEvent: {}
+[13.800763] (autoronto_interview) StdoutLine: {'line': b'[100%] Built target solution\n'}
+[13.889358] (autoronto_interview) CommandEnded: {'returncode': 0}
+[13.894688] (-) TimerEvent: {}
+[13.997518] (-) TimerEvent: {}
+[14.098866] (-) TimerEvent: {}
+[14.199892] (-) TimerEvent: {}
+[14.304132] (-) TimerEvent: {}
+[14.323432] (autoronto_interview) JobProgress: {'identifier': 'autoronto_interview', 'progress': 'install'}
+[14.400072] (autoronto_interview) Command: {'cmd': ['/usr/bin/cmake', '--install', '/usr/sdelasa/build/autoronto_interview'], 'cwd': '/usr/sdelasa/build/autoronto_interview', 'env': OrderedDict([('HOSTNAME', '070e5eb9b48a'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/sdelasa/install/turtlesim/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/root'), ('OLDPWD', '/usr/sdelasa/src'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/usr/sdelasa/install'), ('ROS_DISTRO', 'humble'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/usr/sdelasa/install/autoronto_interview:/usr/sdelasa/install/turtlesim:/opt/ros/humble'), ('PWD', '/usr/sdelasa/build/autoronto_interview'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/usr/sdelasa/install/turtlesim/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/usr/sdelasa/install/autoronto_interview:/usr/sdelasa/install/turtlesim:/opt/ros/humble')]), 'shell': False}
+[14.408831] (-) TimerEvent: {}
+[14.477843] (autoronto_interview) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.483479] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /usr/sdelasa/install/autoronto_interview/lib/autoronto_interview/test_publisher\n'}
+[14.489126] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /usr/sdelasa/install/autoronto_interview/lib/autoronto_interview/test_publisher\n'}
+[14.496457] (autoronto_interview) StdoutLine: {'line': b'-- Installing: /usr/sdelasa/install/autoronto_interview/lib/autoronto_interview/solution\n'}
+[14.508930] (-) TimerEvent: {}
+[14.616667] (-) TimerEvent: {}
+[14.718189] (-) TimerEvent: {}
+[14.819551] (-) TimerEvent: {}
+[14.920708] (-) TimerEvent: {}
+[15.022222] (-) TimerEvent: {}
+[15.128661] (-) TimerEvent: {}
+[15.230464] (-) TimerEvent: {}
+[15.333669] (-) TimerEvent: {}
+[15.435007] (-) TimerEvent: {}
+[15.537063] (-) TimerEvent: {}
+[15.548053] (autoronto_interview) StdoutLine: {'line': b'-- Set runtime path of "/usr/sdelasa/install/autoronto_interview/lib/autoronto_interview/solution" to ""\n'}
+[15.556965] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /usr/sdelasa/install/autoronto_interview/share/ament_index/resource_index/package_run_dependencies/autoronto_interview\n'}
+[15.561622] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /usr/sdelasa/install/autoronto_interview/share/ament_index/resource_index/parent_prefix_path/autoronto_interview\n'}
+[15.567559] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /usr/sdelasa/install/autoronto_interview/share/autoronto_interview/environment/ament_prefix_path.sh\n'}
+[15.572501] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /usr/sdelasa/install/autoronto_interview/share/autoronto_interview/environment/ament_prefix_path.dsv\n'}
+[15.575902] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /usr/sdelasa/install/autoronto_interview/share/autoronto_interview/environment/path.sh\n'}
+[15.578608] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /usr/sdelasa/install/autoronto_interview/share/autoronto_interview/environment/path.dsv\n'}
+[15.581932] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /usr/sdelasa/install/autoronto_interview/share/autoronto_interview/local_setup.bash\n'}
+[15.585302] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /usr/sdelasa/install/autoronto_interview/share/autoronto_interview/local_setup.sh\n'}
+[15.588951] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /usr/sdelasa/install/autoronto_interview/share/autoronto_interview/local_setup.zsh\n'}
+[15.597235] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /usr/sdelasa/install/autoronto_interview/share/autoronto_interview/local_setup.dsv\n'}
+[15.601977] (autoronto_interview) StdoutLine: {'line': b'-- Installing: /usr/sdelasa/install/autoronto_interview/share/autoronto_interview/package.dsv\n'}
+[15.611907] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /usr/sdelasa/install/autoronto_interview/share/ament_index/resource_index/packages/autoronto_interview\n'}
+[15.616893] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /usr/sdelasa/install/autoronto_interview/share/autoronto_interview/cmake/autoronto_interviewConfig.cmake\n'}
+[15.620403] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /usr/sdelasa/install/autoronto_interview/share/autoronto_interview/cmake/autoronto_interviewConfig-version.cmake\n'}
+[15.623388] (autoronto_interview) StdoutLine: {'line': b'-- Up-to-date: /usr/sdelasa/install/autoronto_interview/share/autoronto_interview/package.xml\n'}
+[15.629801] (autoronto_interview) CommandEnded: {'returncode': 0}
+[15.637471] (-) TimerEvent: {}
+[15.743570] (-) TimerEvent: {}
+[15.845354] (-) TimerEvent: {}
+[15.946975] (-) TimerEvent: {}
+[16.047830] (-) TimerEvent: {}
+[16.148937] (-) TimerEvent: {}
+[16.249947] (-) TimerEvent: {}
+[16.295676] (autoronto_interview) JobEnded: {'identifier': 'autoronto_interview', 'rc': 0}
+[16.313558] (-) EventReactorShutdown: {}

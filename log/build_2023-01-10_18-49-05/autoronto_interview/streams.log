@@ -1,0 +1,29 @@
+[0.136s] Invoking command in '/usr/sdelasa/build/autoronto_interview': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /usr/sdelasa/build/autoronto_interview -- -j5 -l5
+[0.620s] [35m[1mConsolidate compiler generated dependencies of target solution[0m
+[0.774s] [ 50%] Built target test_publisher
+[2.676s] [ 75%] [32mBuilding CXX object CMakeFiles/solution.dir/src/solution.cpp.o[0m
+[9.988s] [100%] [32m[1mLinking CXX executable solution[0m
+[13.799s] [100%] Built target solution
+[13.888s] Invoked command in '/usr/sdelasa/build/autoronto_interview' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /usr/sdelasa/build/autoronto_interview -- -j5 -l5
+[14.403s] Invoking command in '/usr/sdelasa/build/autoronto_interview': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /usr/sdelasa/build/autoronto_interview
+[14.478s] -- Install configuration: ""
+[14.483s] -- Up-to-date: /usr/sdelasa/install/autoronto_interview/lib/autoronto_interview/test_publisher
+[14.489s] -- Up-to-date: /usr/sdelasa/install/autoronto_interview/lib/autoronto_interview/test_publisher
+[14.495s] -- Installing: /usr/sdelasa/install/autoronto_interview/lib/autoronto_interview/solution
+[15.552s] -- Set runtime path of "/usr/sdelasa/install/autoronto_interview/lib/autoronto_interview/solution" to ""
+[15.556s] -- Up-to-date: /usr/sdelasa/install/autoronto_interview/share/ament_index/resource_index/package_run_dependencies/autoronto_interview
+[15.562s] -- Up-to-date: /usr/sdelasa/install/autoronto_interview/share/ament_index/resource_index/parent_prefix_path/autoronto_interview
+[15.566s] -- Up-to-date: /usr/sdelasa/install/autoronto_interview/share/autoronto_interview/environment/ament_prefix_path.sh
+[15.571s] -- Up-to-date: /usr/sdelasa/install/autoronto_interview/share/autoronto_interview/environment/ament_prefix_path.dsv
+[15.574s] -- Up-to-date: /usr/sdelasa/install/autoronto_interview/share/autoronto_interview/environment/path.sh
+[15.577s] -- Up-to-date: /usr/sdelasa/install/autoronto_interview/share/autoronto_interview/environment/path.dsv
+[15.580s] -- Up-to-date: /usr/sdelasa/install/autoronto_interview/share/autoronto_interview/local_setup.bash
+[15.584s] -- Up-to-date: /usr/sdelasa/install/autoronto_interview/share/autoronto_interview/local_setup.sh
+[15.592s] -- Up-to-date: /usr/sdelasa/install/autoronto_interview/share/autoronto_interview/local_setup.zsh
+[15.596s] -- Up-to-date: /usr/sdelasa/install/autoronto_interview/share/autoronto_interview/local_setup.dsv
+[15.600s] -- Installing: /usr/sdelasa/install/autoronto_interview/share/autoronto_interview/package.dsv
+[15.611s] -- Up-to-date: /usr/sdelasa/install/autoronto_interview/share/ament_index/resource_index/packages/autoronto_interview
+[15.615s] -- Up-to-date: /usr/sdelasa/install/autoronto_interview/share/autoronto_interview/cmake/autoronto_interviewConfig.cmake
+[15.618s] -- Up-to-date: /usr/sdelasa/install/autoronto_interview/share/autoronto_interview/cmake/autoronto_interviewConfig-version.cmake
+[15.621s] -- Up-to-date: /usr/sdelasa/install/autoronto_interview/share/autoronto_interview/package.xml
+[15.627s] Invoked command in '/usr/sdelasa/build/autoronto_interview' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /usr/sdelasa/build/autoronto_interview
